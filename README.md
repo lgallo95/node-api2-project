@@ -25,12 +25,12 @@ Your assignment page on Canvas should contain instructions for submitting this p
 | 5 | DELETE | /api/posts/:id          | Removes the post with the specified id and returns the **deleted post object**                                                  |
 | 6 | GET    | /api/posts/:id/comments | Returns an **array of all the comment objects** associated with the post with the specified id                                  |
 
-#### 1 [GET] /api/posts
+<!-- #### 1 [GET] /api/posts
 
 - If there's an error in retrieving the _posts_ from the database:
   - respond with HTTP status code `500`.
-  - return the following JSON: `{ message: "The posts information could not be retrieved" }`.
-
+  - return the following JSON: `{ message: "The posts information could not be retrieved" }`. -->
+<!-- 
 #### 2 [GET] /api/posts/:id
 
 - If the _post_ with the specified `id` is not found:
@@ -40,8 +40,8 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
 - If there's an error in retrieving the _post_ from the database:
   - respond with HTTP status code `500`.
-  - return the following JSON: `{ message: "The post information could not be retrieved" }`.
-
+  - return the following JSON: `{ message: "The post information could not be retrieved" }`. -->
+<!-- 
 #### 3 [POST] /api/posts
 
 - If the request body is missing the `title` or `contents` property:
@@ -57,9 +57,9 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
 - If there's an error while saving the _post_:
   - respond with HTTP status code `500` (Server Error).
-  - return the following JSON: `{ message: "There was an error while saving the post to the database" }`.
+  - return the following JSON: `{ message: "There was an error while saving the post to the database" }`. -->
 
-#### 4 [PUT] /api/posts/:id
+<!-- #### 4 [PUT] /api/posts/:id
 
 - If the _post_ with the specified `id` is not found:
 
@@ -80,7 +80,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
   - update the post document in the database using the new information sent in the `request body`.
   - return HTTP status code `200` (OK).
-  - return the newly updated _post_.
+  - return the newly updated _post_. -->
 
 #### 5 [DELETE] /api/posts/:id
 
